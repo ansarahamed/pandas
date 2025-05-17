@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lesson 2: Creating an Anaconda Environment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      color: #16a085;
+    }
+    ul {
+      margin-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    code {
+      background-color: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✅ Lesson 2: Creating an Anaconda Environment Using Anaconda Navigator</h1>
+
+  <h2>1. Open Anaconda Navigator</h2>
+  <ul>
+    <li><strong>Mac:</strong> Finder > Applications > Anaconda Navigator</li>
+    <li><strong>Windows:</strong> Start menu > Search for <code>Anaconda Navigator</code></li>
+  </ul>
+
+  <h2>2. What is an Environment?</h2>
+  <ul>
+    <li>A <strong>sandbox</strong> for Python code</li>
+    <li>Lets you install specific versions of Python + libraries</li>
+    <li>Ideal for managing dependencies across multiple projects</li>
+  </ul>
+
+  <h2>3. Base Environment</h2>
+  <ul>
+    <li>Default environment that comes with Anaconda</li>
+    <li>Includes Python and ~100 libraries like <code>pandas</code></li>
+    <li>Packages may not be the latest versions</li>
+  </ul>
+
+  <h2>4. Creating a New Environment</h2>
+  <ul>
+    <li>Click the <strong>Environments</strong> tab</li>
+    <li>Click <strong>Create</strong> at the bottom</li>
+    <li>Name the environment (e.g., <code>pandas-playground</code>)</li>
+    <li>Select latest Python version (e.g., 3.11) and click <strong>Create</strong></li>
+  </ul>
+
+  <h2>5. Installing Packages</h2>
+  <ul>
+    <li>Select your new environment</li>
+    <li>Change filter from <code>Installed</code> to <code>All</code></li>
+    <li>Search and install the following:
+      <ul>
+        <li><code>pandas</code></li>
+        <li><code>bottleneck</code> (optimization)</li>
+        <li><code>numexpr</code> (optimization)</li>
+      </ul>
+    </li>
+    <li>Click <strong>Apply</strong> to install with dependencies</li>
+  </ul>
+
+  <h2>6. Install JupyterLab</h2>
+  <ul>
+    <li>Go to the <strong>Home</strong> tab</li>
+    <li>Select your new environment from the dropdown</li>
+    <li>Find the <strong>JupyterLab</strong> tile and click <strong>Install</strong></li>
+  </ul>
+
+  <h2>7. Result</h2>
+  <ul>
+    <li>You now have an isolated environment with:</li>
+    <ul>
+      <li>Latest Python</li>
+      <li>Latest pandas</li>
+      <li>JupyterLab for coding</li>
+    </ul>
+  </ul>
+
+</body>
+</html>
